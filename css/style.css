@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #e7131a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.header .one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .one .logo {
+  float: left;
+}
+
+.header .one .logo img {
+  transform: scale(0.6);
+  margin-left: -38px;
+  padding-top: 5px;
+}
+
+.header .two {
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .two .subscribe {
+  padding-top: 0px;
+  margin-right: 10px;
+}
+
+.header .two .subscribe .Subscribe {
+  padding: 10px 12px;
+  background: #e7131a;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 3px white solid;
+  border-radius: 3px;
+}
+
+.header .two .search {
+  padding-top: 0px;
+  margin-right: 10px;
+}
+
+.header .two .search .btn {
+  padding: 8px 12px;
+  background: #e7131a;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 3px white solid;
+  border-radius: 3px;
+}
+
+.header .two .search .btn .fas {
+  opacity: 0.7;
+  font-weight: light;
+  font-size: 0.8rem;
+}
+
+.header .two .sections {
+  padding: 0px;
+}
+
+.header .two .sections .alpha {
+  padding: 0px;
+  display: flex;
+  position: relative;
+}
+
+.header .two .sections .alpha p {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
+  background: white;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.header .two .sections .alpha .toggler {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: 65px;
+  margin-top: -3px;
+  opacity: 0;
+  z-index: 3;
+}
+
+.header .two .sections .hamburger {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .sections .hamburgerline {
+  width: 15px;
+  height: 2px;
+  background: black;
+  position: relative;
+}
+
+.header .two .sections .hamburgerline:before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: -5px;
+}
+
+.header .two .sections .hamburgerline:after {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 5px;
+}
+
+.menu {
+  margin-top: 460px;
+}
