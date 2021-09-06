@@ -5,42 +5,31 @@
 }
 
 .header {
-  background: #e7131a;
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  align-items: center;
-  height: 60px;
+  background: #e7131a;
 }
 
-.header .one {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header .one .logo {
-  float: left;
-}
-
-.header .one .logo img {
+.header .logo img {
   transform: scale(0.6);
-  margin-left: -38px;
-  padding-top: 5px;
+  margin-left: -35px;
 }
 
-.header .two {
+.header .others {
   display: flex;
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-right: 0px;
 }
 
-.header .two .subscribe {
-  padding-top: 0px;
-  margin-right: 10px;
+.header .others .buttons {
+  display: flex;
 }
 
-.header .two .subscribe .Subscribe {
+.header .others .buttons .subscribe .Subscribe {
   padding: 10px 12px;
   background: #e7131a;
   color: white;
@@ -48,14 +37,10 @@
   font-weight: bold;
   border: 3px white solid;
   border-radius: 3px;
-}
-
-.header .two .search {
-  padding-top: 0px;
   margin-right: 10px;
 }
 
-.header .two .search .btn {
+.header .others .buttons .search .btn {
   padding: 8px 12px;
   background: #e7131a;
   color: white;
@@ -65,61 +50,46 @@
   border-radius: 3px;
 }
 
-.header .two .search .btn .fas {
-  opacity: 0.7;
-  font-weight: light;
-  font-size: 0.8rem;
-}
-
-.header .two .sections {
-  padding: 0px;
-}
-
-.header .two .sections .alpha {
-  padding: 0px;
-  display: flex;
-  position: relative;
-}
-
-.header .two .sections .alpha p {
-  padding-top: 12px;
+.header .others .hamburgersection .firstp {
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 90px;
   background: white;
   color: black;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 3px;
+  position: relative;
+  width: 80%;
+  margin-left: 20px;
 }
 
-.header .two .sections .alpha .toggler {
+.header .others .hamburgersection .toggler {
   width: 40px;
   height: 40px;
   position: absolute;
-  margin-left: 65px;
-  margin-top: -3px;
+  top: 10px;
+  right: 30px;
   opacity: 0;
-  z-index: 3;
+  z-index: 5;
+  cursor: pointer;
 }
 
-.header .two .sections .hamburger {
-  position: absolute;
-  margin-left: 70px;
-  margin-top: -19px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header .others .hamburgersection .toggler:checked ~ .menu {
+  visibility: visible;
 }
 
-.header .sections .hamburgerline {
+.header .others .hamburgersection .hamburgerline {
   width: 15px;
   height: 2px;
   background: black;
   position: relative;
+  top: -20px;
+  left: 120px;
 }
 
-.header .two .sections .hamburgerline:before {
+.header .others .hamburgersection .hamburgerline::before {
   content: "";
   width: 15px;
   height: 2px;
@@ -128,7 +98,7 @@
   top: -5px;
 }
 
-.header .two .sections .hamburgerline:after {
+.header .others .hamburgersection .hamburgerline::after {
   content: "";
   width: 15px;
   height: 2px;
@@ -137,6 +107,32 @@
   top: 5px;
 }
 
-.menu {
-  margin-top: 460px;
+.header .others .hamburgersection .menu {
+  background: #e7131a;
+  visibility: hidden;
+  position: absolute;
+  top: 110px;
+  right: 0px;
+  width: 60%;
+}
+
+.header .others .hamburgersection .menu .menulist {
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.header .others .hamburgersection .menu .menulist p {
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.header .others .hamburgersection .menu .menulist a {
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
