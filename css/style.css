@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .header {
@@ -114,13 +115,15 @@
   top: 110px;
   right: 0px;
   width: 60%;
+  z-index: 3;
+  padding-top: 0px;
 }
 
 .header .others .hamburgersection .menu .menulist {
   color: white;
   font-size: 1.3rem;
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   margin-bottom: 10px;
   text-decoration: none;
 }
@@ -135,4 +138,202 @@
   color: white;
   font-size: 1.1rem;
   text-decoration: none;
+}
+
+.More {
+  width: 100%;
+  height: auto;
+}
+
+.More .moretext {
+  width: 17%;
+  height: 50px;
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.More .moretext:hover {
+  background: lightgray;
+  border-radius: 3px;
+}
+
+.More .moretext .lettering {
+  font-size: 1.2rem;
+}
+
+.More .moretext .fa-angle-down {
+  position: absolute;
+  top: 17.3px;
+  left: 65px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.More .menuwrap .toggler {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -52px;
+  left: 60px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.More .menuwrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.More .menuwrap .menu {
+  visibility: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.More .menuwrap .menu ul {
+  width: 40%;
+  position: absolute;
+  top: -52px;
+  right: 0;
+  background: rgb(252, 250, 250);
+}
+
+.More .menuwrap .menu ul li {
+  list-style: none;
+  padding: 14px;
+  border-bottom: 0.2px solid rgb(206, 200, 200);
+  border-right: 0.2px solid rgb(206, 200, 200);
+}
+
+.More .menuwrap .menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.news {
+  width: 100%;
+}
+
+.news .headline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.news .headline .caption {
+  width: 90%;
+}
+
+.news .headline .caption h1 {
+  font-size: 1.3rem;
+  font-family: "Cantarell", sans-serif;
+}
+
+.news .headlineimage {
+  width: 100%;
+}
+
+.news .headlineimage img {
+  width: 100%;
+}
+
+.news .others {
+  width: 100%;
+}
+
+.news .others .feature {
+  width: 98%;
+}
+
+.news .others .feature h2 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 5px;
+  margin-top: 5px;
+  border-bottom: 0.2px solid rgb(206, 200, 200);
+}
+
+.news .others .variety {
+  width: 98%;
+}
+
+.news .others .variety .topics {
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom: 0.5px solid rgb(206, 200, 200);
+  position: relative;
+}
+
+.news .others .variety .topics p {
+  font-size: 9px;
+  color: rgb(128, 118, 118);
+  font-family: sans-serif;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.news .others .variety .topics h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+.news .others .variety .topics .circle {
+  width: 10px;
+  height: 10px;
+  background: #e7131a;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: -4px;
+}
+
+.videos {
+  width: auto;
+  background: rgb(235, 233, 233);
+}
+
+.videos .titlesection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.videos .titlesection .title {
+  width: 100%;
+}
+
+.videos .titlesection .title p {
+  color: #e7131a;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.videos .titlesection .title img {
+  color: red;
+}
+
+.videos .videostiles {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.videos .videostiles .tiles {
+  padding-right: 20px;
+}
+
+.videos .videostiles .tiles p {
+  padding-bottom: 60px;
+  font-size: 14px;
+  text-align: left;
 }
