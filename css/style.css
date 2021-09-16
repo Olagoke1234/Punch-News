@@ -10,11 +10,12 @@
   align-items: flex-start;
   justify-content: space-between;
   background: #e7131a;
+  width: 100%;
 }
 
 .header .logo img {
   transform: scale(0.6);
-  margin-left: -35px;
+  margin-left: -40px;
 }
 
 .header .others {
@@ -126,6 +127,7 @@
   padding-bottom: 25px;
   margin-bottom: 10px;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 .header .others .hamburgersection .menu .menulist p {
@@ -142,12 +144,12 @@
 
 .More {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .More .moretext {
-  width: 17%;
-  height: 50px;
+  width: 18%;
+  height: 100%;
   padding: 15px;
   position: relative;
   cursor: pointer;
@@ -159,7 +161,7 @@
 }
 
 .More .moretext .lettering {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .More .moretext .fa-angle-down {
@@ -173,11 +175,12 @@
 .More .menuwrap .toggler {
   width: 50px;
   height: 50px;
-  position: relative;
-  top: -52px;
+  position: absolute;
+  top: 60px;
   left: 60px;
   opacity: 0;
   cursor: pointer;
+  z-index: 4;
 }
 
 .More .menuwrap .toggler:checked ~ .menu {
@@ -187,15 +190,14 @@
 .More .menuwrap .menu {
   visibility: hidden;
   width: 100%;
-  position: relative;
+  overflow-x: hidden;
 }
 
 .More .menuwrap .menu ul {
-  width: 40%;
-  position: absolute;
-  top: -52px;
-  right: 0;
+  position: relative;
   background: rgb(252, 250, 250);
+  float: right;
+  width: 30%;
 }
 
 .More .menuwrap .menu ul li {
@@ -213,6 +215,7 @@
 
 .news {
   width: 100%;
+  margin-top: -550px;
 }
 
 .news .headline {
@@ -222,7 +225,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: -20px;
+
   margin-bottom: 20px;
 }
 
@@ -236,7 +239,8 @@
 }
 
 .news .headlineimage {
-  width: 100%;
+  width: 480px;
+  height: 280px;
 }
 
 .news .headlineimage img {
@@ -336,4 +340,171 @@
   padding-bottom: 60px;
   font-size: 14px;
   text-align: left;
+}
+
+.firstadvert {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.firstadvert .adverttext {
+  width: 100%;
+}
+
+.firstadvert .adverttext p {
+  padding: 20px;
+  font-size: 11px;
+}
+
+.firstadvert .advertvideo {
+  width: 100%;
+}
+
+.learnmore {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(206, 200, 200);
+}
+
+.learnmore .btn {
+  background: rgb(63, 61, 61);
+  padding: 8px 25px;
+  color: white;
+  height: auto;
+  border-radius: 2px;
+  font-weight: bolder;
+  width: 125px;
+}
+
+.specifictopics {
+  width: 100%;
+}
+
+.specifictopics .fullsection {
+  width: 100%;
+}
+
+.specifictopics .fullsection .mainsection {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(214, 211, 211);
+}
+
+.specifictopics .fullsection .mainsection .sectionname {
+  width: 100%;
+  padding: 15px 15px;
+}
+
+.specifictopics .fullsection .mainsection .sectionname p {
+  color: #e7131a;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.specifictopics .fullsection .mainsection .mainimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specifictopics .fullsection .mainsection .mainimage img {
+  width: 480px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.specifictopics .fullsection .mainsection .date {
+  display: flex;
+  padding: 10px;
+}
+
+.specifictopics .fullsection .mainsection .date img {
+  transform: scale(0.7);
+  font-weight: lighter;
+  color: rgb(206, 200, 200);
+  margin-top: -6px;
+  opacity: 0.6;
+}
+
+.specifictopics .fullsection .mainsection .date p {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(206, 200, 200);
+}
+
+.specifictopics .fullsection .mainsection .caption {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: -15px;
+}
+
+.specifictopics .fullsection .mainsection .caption p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.specifictopics .fullsection .morestories {
+  width: 100%;
+}
+
+.specifictopics .fullsection .morestories .otherstories {
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-bottom: 0.5px solid rgb(214, 211, 211);
+  margin-left: 10px;
+}
+
+.specifictopics .fullsection .morestories .otherstories .videos {
+  margin-right: 15px;
+  height: 80px;
+}
+
+.specifictopics .fullsection .morestories .otherstories .videos img {
+  width: 120px;
+  height: 80px;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext {
+  width: 80%;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext .date {
+  width: 100%;
+  display: flex;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext .date img {
+  transform: scale(0.7);
+  font-weight: lighter;
+  color: rgb(206, 200, 200);
+  opacity: 0.5;
+  margin-top: -4px;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext .date p {
+  width: 100%;
+  color: rgb(206, 200, 200);
+  font-size: 14px;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext .text {
+  width: 90%;
+}
+
+.specifictopics .fullsection .morestories .otherstories .datetext .text p {
+  width: 90%;
+  font-size: 14px;
+  font-weight: bolder;
 }
