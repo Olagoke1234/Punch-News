@@ -508,3 +508,185 @@
   font-size: 14px;
   font-weight: bolder;
 }
+.columnsection {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.columnsection .title {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.columnsection .title p {
+  color: #e7131a;
+  font-weight: bolder;
+}
+
+.columnsection .columns {
+  width: 100%;
+  padding: 10px 0px;
+}
+.columnsection .columns .tiles {
+  display: flex;
+  width: 100%;
+}
+
+.columnsection .columns .tiles img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.columnsection .columns .tiles .lettering {
+  width: 100%;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columnsection .columns .tiles .lettering h4 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+.columnsection .columns .tiles .lettering p {
+  font-size: 11px;
+  font-weight: lighter;
+  color: #e7131a;
+  margin-top: 5px;
+}
+
+.morespecifictopics {
+  width: 100%;
+}
+
+.morespecifictopics .fullsection {
+  width: 100%;
+}
+
+.morespecifictopics .fullsection .mainsection {
+  width: 100%;
+  border-bottom: 0.5px solid rgb(214, 211, 211);
+}
+
+.morespecifictopics .fullsection .mainsection .sectionname {
+  width: 100%;
+  padding: 15px 15px;
+}
+
+.morespecifictopics .fullsection .mainsection .sectionname p {
+  color: #e7131a;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.morespecifictopics .fullsection .mainsection .mainimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.morespecifictopics .fullsection .mainsection .mainimage img {
+  width: 480px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.morespecifictopics .fullsection .mainsection .date {
+  display: flex;
+  padding: 10px;
+}
+
+.morespecifictopics .fullsection .mainsection .date img {
+  transform: scale(0.7);
+  font-weight: lighter;
+  color: rgb(206, 200, 200);
+  margin-top: -6px;
+  opacity: 0.6;
+}
+
+.morespecifictopics .fullsection .mainsection .date p {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(206, 200, 200);
+}
+
+.morespecifictopics .fullsection .mainsection .caption {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: -15px;
+}
+
+.morespecifictopics .fullsection .mainsection .caption p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.morespecifictopics .fullsection .morestories {
+  width: 100%;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories {
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-bottom: 0.5px solid rgb(214, 211, 211);
+  margin-left: 10px;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .videos {
+  margin-right: 15px;
+  height: 80px;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .videos img {
+  width: 120px;
+  height: 80px;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .datetext {
+  width: 80%;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .datetext .date {
+  width: 100%;
+  display: flex;
+}
+
+.morespecifictopics
+  .fullsection
+  .morestories
+  .otherstories
+  .datetext
+  .date
+  img {
+  transform: scale(0.7);
+  font-weight: lighter;
+  color: rgb(206, 200, 200);
+  opacity: 0.5;
+  margin-top: -4px;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .datetext .date p {
+  width: 100%;
+  color: rgb(206, 200, 200);
+  font-size: 14px;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .datetext .text {
+  width: 90%;
+}
+
+.morespecifictopics .fullsection .morestories .otherstories .datetext .text p {
+  width: 90%;
+  font-size: 14px;
+  font-weight: bolder;
+}
