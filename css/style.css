@@ -690,3 +690,232 @@
   font-size: 14px;
   font-weight: bolder;
 }
+
+.fromtheweb {
+  width: 100%;
+  padding-right: 60px;
+}
+
+.fromtheweb .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+}
+
+.fromtheweb .title h3 {
+  font-size: 15px;
+  color: #e7131a;
+}
+
+.fromtheweb .linkpicssection {
+  width: 100%;
+  display: flex;
+  padding-left: 15px;
+  margin-top: -15px;
+}
+
+.fromtheweb .linkpicssection .linkpics {
+  width: 20%;
+}
+
+.fromtheweb .linkpicssection .linkpics .pictiles {
+  width: 100%;
+}
+
+.fromtheweb .linkpicssection .linkpics .pictiles img {
+  width: 80%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.fromtheweb .linkpicssection .linkpics .highlight {
+  visibility: hidden;
+}
+
+.fromtheweb .linkpicssection .linkpics .highlight p {
+  font-size: 14px;
+}
+
+.fromtheweb .linkpicssection .linkpics .source {
+  visibility: hidden;
+}
+
+.fromtheweb .linkpicssection .linkpics .source p {
+  font-size: 10px;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.appdownload {
+  width: 100%;
+}
+
+.appdownload .text {
+  width: 100%;
+  padding: 10px;
+}
+
+.appdownload .text p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: bolder;
+}
+
+.appdownload .buttons {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.appdownload .buttons .apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+.appdownload .buttons .apple .logo1 {
+  width: 30%;
+}
+
+.appdownload .buttons .apple .logo1 .fab {
+  transform: scale(2.3);
+  color: white;
+}
+
+.appdownload .buttons .apple .lines {
+  width: 70%;
+}
+
+.appdownload .buttons .apple .lines .line1 {
+  width: 100%;
+}
+
+.appdownload .buttons .apple .lines .line1 p {
+  font-size: 10px;
+  color: white;
+}
+
+.appdownload .buttons .apple .lines .line2 p {
+  font-size: 17px;
+  color: white;
+  font-weight: bolder;
+}
+
+.appdownload .buttons .android {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+.appdownload .buttons .android .logo2 {
+  width: 30%;
+}
+
+.appdownload .buttons .android .logo2 .fab {
+  transform: scale(2.3);
+  color: white;
+}
+
+.appdownload .buttons .android .lines {
+  width: 70%;
+}
+
+.appdownload .buttons .android .lines .line1 {
+  width: 100%;
+}
+
+.appdownload .buttons .android .lines .line1 p {
+  font-size: 10px;
+  color: white;
+}
+
+.appdownload .buttons .android .lines .line2 p {
+  font-size: 17px;
+  color: white;
+  font-weight: bolder;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: auto;
+}
+
+footer .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .top img {
+  transform: scale(0.5);
+}
+
+footer .top .search {
+  background-color: white;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+footer .top .search .fa {
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin-left: -5px;
+  font-size: 17px;
+}
+
+footer .top .search input {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  opacity: 1;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.topics .links {
+  padding: 5px;
+}
+
+.topics .links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.topics button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin-top: 15px;
+  text-align: center;
+}
